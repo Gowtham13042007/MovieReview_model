@@ -161,7 +161,7 @@ Open **http://127.0.0.1:5000**, type a review or tap one of the example chips (*
 
 ---
 
-## 🗂 Project structure
+##  Project structure
 
 | Path | Purpose |
 |---|---|
