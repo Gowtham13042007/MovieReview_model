@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🫀 Movie Review Sentiment Analysis
+#  Movie Review Sentiment Analysis
 
 ### One review. Three pulses.
 
@@ -24,7 +24,7 @@ Type a movie review and watch **three different models** read it side by side, f
 
 ---
 
-## ✨ Overview
+##  Overview
 
 Sentiment analysis labels a review as positive or negative. This project asks a simple question: **how much does a bigger model actually help?** It trains three classifiers on the same data, tests them on the same held-out reviews, and wraps them in an interactive page where you can try your own text and see where they agree or disagree.
 
@@ -36,15 +36,15 @@ Sentiment analysis labels a review as positive or negative. This project asks a 
 
 **Highlights**
 
-- 🧬 **Live three-model prediction**: one review goes down three "vessels", one per model.
-- 💡 **Confidence you can see**: vessel brightness and a LED bar show how sure each model is.
-- ⚡ **Disagreement detector**: when models split, the page flags an "arrhythmia".
-- 🔍 **Inside the project**: expand the real code and plots behind every model, right in the page.
-- 📄 **Full report**: methodology, results and discussion in [`docs/`](docs/Movie_Review_Sentiment_Report.pdf).
+-  **Live three-model prediction**: one review goes down three "vessels", one per model.
+-  **Confidence you can see**: vessel brightness and a LED bar show how sure each model is.
+-  **Disagreement detector**: when models split, the page flags an "arrhythmia".
+-  **Inside the project**: expand the real code and plots behind every model, right in the page.
+-  **Full report**: methodology, results and discussion in [`docs/`](docs/Movie_Review_Sentiment_Report.pdf).
 
 ---
 
-## 🎬 Demo
+##  Demo
 
 <table>
 <tr>
@@ -65,7 +65,7 @@ Sentiment analysis labels a review as positive or negative. This project asks a 
 
 ---
 
-## 📊 Results
+##  Results
 
 Held-out **test set of 7,437 reviews**, never used for training or tuning.
 
@@ -95,7 +95,7 @@ Held-out **test set of 7,437 reviews**, never used for training or tuning.
 
 ---
 
-## 🧠 How it works
+##  How it works
 
 ```mermaid
 flowchart LR
@@ -125,7 +125,7 @@ flowchart LR
 
 ---
 
-## 🚀 Run it locally
+##  Run it locally
 
 **Expected layout**
 
@@ -173,7 +173,7 @@ Open **http://127.0.0.1:5000**, type a review or tap one of the example chips (*
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - English IMDb movie reviews only; other kinds of text will likely do worse.
 - Binary labels: there is no neutral class, so mixed reviews are forced into one side.
@@ -181,13 +181,13 @@ Open **http://127.0.0.1:5000**, type a review or tap one of the example chips (*
 - Confidence values are raw model probabilities and have not been calibrated.
 - The app is a local development server, not a hosted service.
 
-## 🔭 Future work
+##  Future work
 
 Repeated runs with confidence intervals · neutral or star-rating classes · calibration of probabilities · other pretrained encoders and longer context · a second review dataset · hosted deployment.
 
 ---
 
-## 👥 Team
+##  Team
 
 | Name | Roll no. |
 |---|---|
