@@ -9,7 +9,7 @@ Type a movie review and watch **three different models** read it side by side, f
 ![1](docs/images/1.jpeg)
 ![2](docs/images/2.jpeg)
 ![3](docs/images/3.jpeg)
-![4](docs/images/4.jpeg)
+
 
 
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)
@@ -52,8 +52,8 @@ Sentiment analysis labels a review as positive or negative. This project asks a 
 <td align="center" width="50%"><b>The models disagree</b></td>
 </tr>
 <tr>
-<td><img src="docs/screenshots/agree.jpg" alt="All three models predict positive"></td>
-<td><img src="docs/screenshots/disagree.jpg" alt="Models disagree: two negative, one positive"></td>
+<td><img src="docs/images/2.jpeg" alt="All three models predict positive"></td>
+<td><img src="docs/images/2.jpeg" alt="Models disagree: two negative, one positive"></td>
 </tr>
 <tr>
 <td align="center"><sub>Green = positive. 98%, 100%, 100%: "Steady rhythm."</sub></td>
